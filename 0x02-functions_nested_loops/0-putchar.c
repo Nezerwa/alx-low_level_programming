@@ -1,41 +1,18 @@
 #include "main.h"
-
 /**
+ * main- Entry
  *
- *  * main- Entry
- *
- *   *
- *
- *    * Return: 0
- *
- *     */
-
-
+ * Return: 0
+ */
 
 int main(void)
-
 {
+	char word[9] = "_putchar";
 
-		char word[9] = "_putchar";
-
-
-
-			int i = 0;
+	int i = 0;
 
 
-
-
-
-				while (i < 8)
-
-						{
-
-									_putchar(word[i]);
-
-											i++;
-
-												}
-
+<<<<<<< HEAD
 					_putchar('\n');
 
 						return (0);
@@ -43,3 +20,13 @@ int main(void)
 }
 
 
+=======
+	while (i < 8)
+	{
+		_putchar(word[i]);
+		i++;
+	}
+	_putchar('\n');
+	return (0);
+}
+>>>>>>> 0f04b4c648ff80696a053bf6eefd2c8cb1c1047c
